@@ -11,10 +11,15 @@ class ArchiveWarning < Tag
   def self.warning_tags
     Set[ArchiveConfig.WARNING_DEFAULT_TAG_NAME,
         ArchiveConfig.WARNING_NONE_TAG_NAME,
+        ArchiveConfig.WARNING_ABUSE_TAG_NAME,
+        ArchiveConfig.WARNING_DRUGS_TAG_NAME,
+        ArchiveConfig.WARNING_BIGOTRY_TAG_NAME,
         ArchiveConfig.WARNING_VIOLENCE_TAG_NAME,
         ArchiveConfig.WARNING_DEATH_TAG_NAME,
-        ArchiveConfig.WARNING_NONCON_TAG_NAME,
-        ArchiveConfig.WARNING_CHAN_TAG_NAME]
+        ArchiveConfig.WARNING_SELFHARM_TAG_NAME,
+        ArchiveConfig.WARNING_SUICIDE_TAG_NAME,
+        ArchiveConfig.WARNING_TORTURE_TAG_NAME,
+        ArchiveConfig.WARNING_UNREALITY_TAG_NAME]
   end
 
   def self.warning?(warning)
