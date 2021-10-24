@@ -87,17 +87,17 @@
   </h3>
   <p><%= ts('You can start browsing works by going to the "%{fandoms}" tab at 
   the top of any Archive page in the default skin and selecting either 
-  "%{all_fandoms}" or one of the subsets such as "%{movies}". Alternatively, you 
+  "%{all_fandoms}" or one of the subsets such as "%{minecraft_roleplay}". Alternatively, you 
   can use the %{search} to look for specific fandoms, works, or users. You can 
   use the "Sort and Filter" form to narrow down the results in any fandom page. 
   For more instructions, please visit %{search_faq} and the 
   %{search_tutorial}.',
   fandoms: (link_to ts('Fandoms'), menu_fandoms_path),
   all_fandoms: (link_to ts('All Fandoms'), media_path),
-  movies: Media.find_by_name('Movies') ? (link_to ts('Movies'), 
+  minecraft_roleplay: Media.find_by_name('Minecraft Roleplay') ? (link_to ts('Minecraft Roleplay'), 
                                          medium_fandoms_path(
-                                           Media.find_by_name('Movies'))) :
-                                         ts('Movies'),
+                                           Media.find_by_name('Minecraft Roleplay'))) :
+                                         ts('Minecraft Roleplay'),
   search: (link_to ts('search feature'), search_works_path),
   search_faq: (link_to ts('Search and Browse FAQ'), 
                        archive_faqs_path + '/search-and-browse'),
@@ -113,17 +113,18 @@
   selecting from the autocomplete list. If you cannot find the tags you want to 
   use, feel free to create new tags for your works. Behind the scenes, our tag 
   wrangling team will match the tags up with their synonyms, so that people can 
-  find your work whether you tag it "<abbr>AMTDI</abbr>", "Aliens Made Them Do 
-  It", or "Sex Pollen". Refer to the %{tags_faq} to learn more.',
+  find your work whether you tag it "<abbr>DSMP</abbr>", "Dream SMP",
+  or "Dream's Survival Multiplayer Server". Refer to the %{tags_faq} to learn more.',
   tags_faq: (link_to ts('Tags FAQ'), archive_faqs_path + '/tags')
   ).html_safe %></p>
 
   <h3 class="heading" id="warnings">
     <%= ts('Warnings') %>
   </h3>
-  <p><%= ts('The Archive defines four "primary" %{warnings_tos}: "Graphic 
-  Depictions Of Violence", "Major Character Death", "Rape/Non-Con", and 
-  "Underage". When posting a work, you have the option to explicitly select 
+  <p><%= ts('The Archive defines multiple "primary" %{warnings_tos}: "Abuse", "Alcohol & Drug Use",
+  "Bigotry & Discrimination", "Graphic Depictions Of Violence", "Major Character Death",
+  "Self-Harm", "Suicide", "Torture" and "Unreality & Derealization". 
+  When posting a work, you have the option to explicitly select 
   warnings for this content, deny the presence of such content ("No Archive 
   Warnings Apply"), or choose not to apply warnings regardless of whether or not 
   these warnings are applicable ("Creator Chose Not To Use Archive Warnings"). 
