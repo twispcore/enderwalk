@@ -566,6 +566,7 @@ class Tag < ApplicationRecord
       '*a*' => '&',
       '*d*' => '.',
       '*q*' => '?',
+      '*p*' => '%',
       '*h*' => '#'
     )
     self.where('tags.name = ?', string).first
