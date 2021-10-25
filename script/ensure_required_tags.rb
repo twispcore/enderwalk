@@ -5,17 +5,21 @@
 
 # run instead as:
 # rails runner script/ensure_required_tags.rb
-# or 
+# or
 # rails runner -e production script/ensure_required_tags.rb
 
 ArchiveWarning.create_canonical(ArchiveConfig.WARNING_DEFAULT_TAG_NAME)
 ArchiveWarning.create_canonical(ArchiveConfig.WARNING_NONE_TAG_NAME)
 ArchiveWarning.create_canonical(ArchiveConfig.WARNING_VIOLENCE_TAG_NAME)
 ArchiveWarning.create_canonical(ArchiveConfig.WARNING_DEATH_TAG_NAME)
-ArchiveWarning.create_canonical(ArchiveConfig.WARNING_NONCON_TAG_NAME)
-ArchiveWarning.create_canonical(ArchiveConfig.WARNING_CHAN_TAG_NAME)
+ArchiveWarning.create_canonical(ArchiveConfig.WARNING_ABUSE_TAG_NAME)
+ArchiveWarning.create_canonical(ArchiveConfig.WARNING_DRUGS_TAG_NAME)
+ArchiveWarning.create_canonical(ArchiveConfig.WARNING_BIGOTRY_TAG_NAME)
+ArchiveWarning.create_canonical(ArchiveConfig.WARNING_SELFHARM_TAG_NAME)
+ArchiveWarning.create_canonical(ArchiveConfig.WARNING_SUICIDE_TAG_NAME)
+ArchiveWarning.create_canonical(ArchiveConfig.WARNING_TORTURE_TAG_NAME)
+ArchiveWarning.create_canonical(ArchiveConfig.WARNING_UNREALITY_TAG_NAME)
 Rating.create_canonical(ArchiveConfig.RATING_DEFAULT_TAG_NAME, true)
-Rating.create_canonical(ArchiveConfig.RATING_EXPLICIT_TAG_NAME, true)
 Rating.create_canonical(ArchiveConfig.RATING_MATURE_TAG_NAME, true)
 Rating.create_canonical(ArchiveConfig.RATING_TEEN_TAG_NAME, false)
 Rating.create_canonical(ArchiveConfig.RATING_GENERAL_TAG_NAME, false)

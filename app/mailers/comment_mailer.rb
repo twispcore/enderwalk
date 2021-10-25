@@ -1,7 +1,7 @@
 class CommentMailer < ActionMailer::Base
   layout 'mailer'
   helper :mailer
-  default from: "Archive of Our Own " + "<#{ArchiveConfig.RETURN_ADDRESS}>"
+  default from: "Enderwalk Archives " + "<#{ArchiveConfig.RETURN_ADDRESS}>"
 
   # Sends email to an owner of the top-level commentable when a new comment is created
   def comment_notification(user, comment)

@@ -3,7 +3,7 @@ class AdminMailer < ActionMailer::Base
 
   layout 'mailer'
   helper :mailer
-  default from: "Archive of Our Own " + "<#{ArchiveConfig.RETURN_ADDRESS}>"
+  default from: "Enderwalk Archives " + "<#{ArchiveConfig.RETURN_ADDRESS}>"
 
   def feedback(feedback_id)
     @feedback = Feedback.find(feedback_id)

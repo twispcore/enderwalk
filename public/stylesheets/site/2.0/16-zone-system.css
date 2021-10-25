@@ -26,7 +26,7 @@ SUBSECTIONS:
 
 .splash .module h3 {
   border-bottom: 1px solid #c8c8c8;
-  color: #900;
+  color: #B057FF;
   font-size: 1.714em;
 }
 
@@ -67,7 +67,7 @@ SUBSECTIONS:
 }
 
 .splash .browse li a:before {
-  color: #900;
+  color: #7A1FB5;
   content: "\00BB";
   padding: 0 0.25em 0 0;
 }

@@ -15,7 +15,7 @@ class UserMailer < ActionMailer::Base
   helper :series
   include HtmlCleaner
 
-  default from: "Archive of Our Own " + "<#{ArchiveConfig.RETURN_ADDRESS}>"
+  default from: "Enderwalk Archives " + "<#{ArchiveConfig.RETURN_ADDRESS}>"
 
   # Send an email letting creators know their work has been added to a collection
   def added_to_collection_notification(user_id, work_id, collection_id)

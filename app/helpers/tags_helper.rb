@@ -60,7 +60,7 @@ module TagsHelper
   end
 
   def link_to_tag_with_text(tag, link_text, options = {})
-    if options[:full_path] 
+    if options[:full_path]
       link_to_with_tag_class(tag_url(tag), link_text, options)
     else
       link_to_with_tag_class(tag_path(tag), link_text, options)
@@ -75,7 +75,7 @@ module TagsHelper
     collection = options[:collection]
     if options[:full_path]
       link_to_with_tag_class(collection ? collection_tag_works_url(collection, tag) : tag_works_url(tag), link_text, options)
-    else 
+    else
       link_to_with_tag_class(collection ? collection_tag_works_path(collection, tag) : tag_works_path(tag), link_text, options)
     end
   end
@@ -231,7 +231,7 @@ module TagsHelper
     item_class = item.class.to_s.underscore
     class_name = tag_block_class_name(category)
     content_tag(:li,
-                content_tag(:strong, 
+                content_tag(:strong,
                             show_hidden_tags_link(item, class_name)),
                 class: options[:suppress_toggle_class] ? nil : class_name,
                 id: "#{item_class}_#{item.id}_category_#{class_name}")
@@ -311,9 +311,7 @@ module TagsHelper
       "rating-notrated rating"
     else
       names = rating_tags.collect(&:name)
-      if names.include?(ArchiveConfig.RATING_EXPLICIT_TAG_NAME)
-        "rating-explicit rating"
-      elsif names.include?(ArchiveConfig.RATING_MATURE_TAG_NAME)
+      if names.include?(ArchiveConfig.RATING_MATURE_TAG_NAME)
         "rating-mature rating"
       elsif names.include?(ArchiveConfig.RATING_TEEN_TAG_NAME)
         "rating-teen rating"
