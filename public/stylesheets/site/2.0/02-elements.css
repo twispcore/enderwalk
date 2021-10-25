@@ -23,19 +23,19 @@ body {
 }
 
 a, a:link, a:visited:hover {
-  color: #111;
+  color: #BF57FF;
   text-decoration: none;
   border-bottom: 1px solid;
 }
 
 a:visited {
-  color: #666;
+  color: #62FF57;
   text-decoration: none;
   border-bottom: 1px dashed;
 }
 
 a:hover {
-  color: #999;
+  color: #62FF57;
 }
 
 a:active, a:focus, button:focus {
@@ -185,7 +185,7 @@ sup {
 /*http://otwcode.github.com/docs/front_end_coding/accessible-tables*/
 
 table {
-  background: #ddd;
+  background: #5C5C5C;
   border-collapse: collapse;
   margin: auto;
   width: 100%;
@@ -202,13 +202,13 @@ caption {
 }
 
 thead, tfoot {
-  border-bottom: 2px solid #bbb;
+  border-bottom: 2px solid #808080;
   padding: 0.643em;
   vertical-align: top;
 }
 
 tfoot td {
-  border-top: 1px solid #bbb;
+  border-top: 1px solid #808080;
 }
 
 td th {

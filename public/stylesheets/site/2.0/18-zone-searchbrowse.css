@@ -31,7 +31,7 @@ form.search input[type="text"] {
 }
 
 .search [role="tooltip"] {
-  background: #ddd;
+  background: #272727;
   border: 1px solid #fff;
   padding: 0.15em;
   position: absolute;

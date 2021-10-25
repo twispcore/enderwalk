@@ -38,15 +38,15 @@ notice that CSS3 declarations sit are indented twice (four spaces) and always co
 }
 
 #header a, #header a:visited, #header .current, #header .primary .open a, #header .primary .dropdown:hover a, #header .primary .dropdown a:focus {
-  color: #111;
+  color: #FFFFFF;
 }
 
 #header .actions a:hover, #header .actions a:focus, #header .dropdown:hover a, #header .open a {
-  background: #ddd;
+  background: #4D4D4D;
 }
 
 #header .current {
-  background: #ccc;
+  background: #4D4D4D;
 }
 
 /*BRANDING: logo and title */
@@ -58,7 +58,7 @@ notice that CSS3 declarations sit are indented twice (four spaces) and always co
 
 /* 1.714em x 14px = 24px */
 #header .heading a {
-  color: #900;
+  color: #BF57FF;
   font-size: 1.714em;
   line-height: 1.75em;
 }
@@ -77,18 +77,13 @@ notice that CSS3 declarations sit are indented twice (four spaces) and always co
 /*ACTION: dropdown*/
 
 #header .menu, #small_login, #header .dropdown:hover .current + .menu {
-  background: #ddd;
+  background: #101010;
   display: none;
   padding: 0.25em 0;
   position: absolute;
   width: 20em;
   z-index: 55;
-    box-shadow: 1px 1px 3px -1px #444;
-    background-image: -moz-linear-gradient(top, rgba(221, 221, 221, 0.98) 0%, rgba(204, 204, 204, 0.98) 100%);
-    background-image: -webkit-linear-gradient(top, rgba(221, 221, 221, 0.98) 0%, rgba(204, 204, 204, 0.98) 100%);
-    background-image: -o-linear-gradient(top, rgba(221, 221, 221, 0.98) 0%, rgba(204, 204, 204, 0.98) 100%);
-    background-image: linear-gradient(to bottom, rgba(221, 221, 221, 0.98) 0%, rgba(204, 204, 204, 0.98) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fadddddd', endColorstr='#facccccc',GradientType=0);
+    box-shadow: 1px 1px 3px -1px #0F0F0F;
 }
 
 #header .open .menu, #header .dropdown:hover .menu, .open + #small_login, #header .menu li {
@@ -139,7 +134,7 @@ notice that CSS3 declarations sit are indented twice (four spaces) and always co
 }
 
 #header .user a:hover, #header .user a:focus, #header .user .current {
-  color: #900;
+  color: #BF57FF;
     border-radius: 0.25em;
 }
 
@@ -153,7 +148,7 @@ notice that CSS3 declarations sit are indented twice (four spaces) and always co
 
 #greeting .menu {
   right: 0;
-    box-shadow: -1px 1px 3px -1px #444;
+    box-shadow: -1px 1px 3px -1px #0F0F0F;
 }
 
 /* square off bottom corners when the dropdown is visible */
@@ -231,7 +226,7 @@ notice that CSS3 declarations sit are indented twice (four spaces) and always co
 /* primary navigation */
 
 #header .primary {
-  background: #900 url(/images/skins/textures/tiles/red-ao3.png);
+  background: #900 url(/images/skins/textures/tiles/purple ewa.png);
   padding: 0 0;
   width: 100%;
     box-shadow: inset 0 -6px 10px rgba(0, 0, 0, 0.35),
@@ -260,7 +255,7 @@ notice that CSS3 declarations sit are indented twice (four spaces) and always co
 
 #header .search {
   float: right;
-  color: #2a2a2a;
+  color: #fff;
   margin-right: 0.25em;
 }
 

@@ -1,11 +1,11 @@
-/*==TYPES OF DATA, GROUPS OF DATA 
+/*==TYPES OF DATA, GROUPS OF DATA
 http://otwcode.github.com/docs/front_end_coding/patterns/supertypes
 */
 
 /*TYPE: TAGS */
 
 a.tag {
-  color: #111;
+  color: #FFFFFF;
   line-height: 1.5;
   text-decoration: none;
   padding: 0;
@@ -13,7 +13,7 @@ a.tag {
 }
 
 a.tag:hover, .listbox .heading a.tag:visited:hover {
-  background: #900;
+  background: #AC2DFF;
   color: #fff;
 }
 
@@ -236,10 +236,10 @@ dl.stats dd {
   background: #eee;
 }
 
-.concise li { 
-  width: 45%; 
-  float: left; 
-  clear: none; 
+.concise li {
+  width: 45%;
+  float: left;
+  clear: none;
   margin-right: 1.5em
 }
 
