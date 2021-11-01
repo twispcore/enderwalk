@@ -1,5 +1,5 @@
 # Email settings
-module Otwarchive
+module Enderwalk
   class Application < Rails::Application
     unless %w(test cucumber).include?(Rails.env)
       config.action_mailer.delivery_method = :smtp

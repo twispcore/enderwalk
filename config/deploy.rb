@@ -51,7 +51,7 @@ set :use_sudo, false
 default_run_options[:shell] = '/bin/bash'
 
 # basic settings
-set :application, "otwarchive"
+set :application, "enderwalk"
 set :deploy_to, "/home/ao3app/app"
 set :keep_releases, 4
 

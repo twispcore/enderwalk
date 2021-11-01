@@ -13,5 +13,5 @@ if AUTH_PASSWORD
 end
 
 run Rack::URLMap.new \
-  "/" => Otwarchive::Application,
+  "/" => Enderwalk::Application,
   "/resque" => Resque::Server

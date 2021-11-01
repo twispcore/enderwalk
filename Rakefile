@@ -6,4 +6,4 @@ require 'rake'
 require 'resque/tasks'
 
 include Rake::DSL
-Otwarchive::Application.load_tasks
+Enderwalk::Application.load_tasks

@@ -1,4 +1,4 @@
-Otwarchive::Application.routes.draw do
+Enderwalk::Application.routes.draw do
 
   devise_scope :admin do
     get "admin/logout" => "admin/sessions#confirm_logout"
