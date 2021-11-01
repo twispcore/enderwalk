@@ -3,7 +3,7 @@
 # See http://github.com/ianterrell/permityo/tree/ Settings section for details on what can be configured,
 # although most defaults are sensible.
 
-module Enderwalk
+module Otwarchive
   class Application < Rails::Application
 
     # Which flash key we stick error messages into
