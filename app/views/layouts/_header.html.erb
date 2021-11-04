@@ -4,14 +4,14 @@
     <%= ts('While we\'ve done our best to make the core functionality of this site accessible without javascript, it will work better with it enabled. Please consider turning it on!', key: 'header' ) %>
   </p>
 </noscript>
-<!-- END BETA CAVEATS! --> 
+<!-- END BETA CAVEATS! -->
 
 <!-- BEGIN header -->
 <% if @collection %>
   <!-- custom css for header -->
   <style type="text/css">
-  #header h2 { 
-    background: #616C90 <% if (header_url = @collection.header_image_url || (@collection_parent && @collection_parent.header_image_url)) %>
+  #header h2 {
+    background: #824ad7 <% if (header_url = @collection.header_image_url || (@collection_parent && @collection_parent.header_image_url)) %>
       <% height = (size = FastImage.size(header_url, :timeout => 1)) ? size[1].to_s + 'px' : '100%' %>
       url(<%= header_url %>); height: <%= height %>
     <% end %>;
@@ -23,7 +23,7 @@
 
   <h1 class="heading">
     <%= link_to(content_tag(:span, "#{ArchiveConfig.APP_NAME}") + content_tag(:sup, " beta") +
-    image_tag('/images/ao3_logos/logo_42.png', :alt => "#{ArchiveConfig.ALT_LOGO}", :class => "logo", skip_pipeline: true), root_path) %> 
+    image_tag('/images/ao3_logos/logo_42.png', :alt => "#{ArchiveConfig.ALT_LOGO}", :class => "logo", skip_pipeline: true), root_path) %>
   </h1>
 
   <% if logged_in? || logged_in_as_admin? %>
