@@ -9,8 +9,8 @@
   table td { border-collapse:collapse; }
 </style>
 </head>
-<body bgcolor="#dddddd" style="margin:0px !important; padding:0px !important; width:100% !important;-webkit-font-smoothing: antialiased; -webkit-text-size-adjust:none; -ms-text-size-adjust:none;">
-<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#dddddd" style="border-collapse: collapse;">
+<body bgcolor="#1E1E1E" style="margin:0px !important; padding:0px !important; width:100% !important;-webkit-font-smoothing: antialiased; -webkit-text-size-adjust:none; -ms-text-size-adjust:none;">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#1E1E1E" style="border-collapse: collapse;">
   <tr>
     <td align="center" valign="top" style="padding:25px 0 50px">
       <table width="683" border="0" cellspacing="0" cellpadding="0">
@@ -27,11 +27,11 @@
           <td align="left" valign="top">
             <table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
-                <td width="354" align="center" valign="middle" bgcolor="#990000">
+                <td width="354" align="center" valign="middle" bgcolor="#BF57FF">
                   <div style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:28px; line-height:1em; color:#ffffff; font-weight:bold;">
 
 <!-- !banner -->
-                    <a href="<%= root_url %>" style="color:#ffffff; text-decoration:none"><span style="color:#ffffff; text-decoration:none">Archive of Our Own</span></a>
+                    <a href="<%= root_url %>" style="color:#ffffff; text-decoration:none"><span style="color:#ffffff; text-decoration:none">Enderwalk Archives</span></a>
 <!-- /banner -->
 
 
@@ -85,9 +85,9 @@
                         </table>
                       </td>
                     </tr>
-                    
+
                     <tr>
-                      <td align="left" valign="top" style="padding:15px 25px 25px;" bgcolor="#990000">
+                      <td align="left" valign="top" style="padding:15px 25px 25px;" bgcolor="#BF57FF">
                         <div style="font-family:Lucida Grande, Verdana, Geneva, sans-serif; font-size:.7em; line-height:1.25em; color:#ffffff">
 
 <!-- !footer -->
@@ -96,8 +96,6 @@
                           <% end %>
 
                           <p><%= t("mailer.general.footer.general.html.part1", support_link: style_footer_link(t("mailer.general.footer.general.html.support_link_text"), new_feedback_report_url)).html_safe %></p>
-
-                          <p><%= t("mailer.general.footer.general.html.part2", donate_link: style_footer_link(t("mailer.general.footer.general.html.donate_link_text"), donate_url)).html_safe %></p>
 
                           <% if content_for?(:sent_at) %>
                             <p><%= t 'mailer.general.footer.sent_at', sent_at: yield(:sent_at).strip %></p>
