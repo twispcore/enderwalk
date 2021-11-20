@@ -1,9 +1,9 @@
-/*==GROUP: META 
-http://otwcode.github.com/docs/front_end_coding/patterns/meta 
+/*==GROUP: META
+http://otwcode.github.com/docs/front_end_coding/patterns/meta
 */
 
 dl.meta {
-  border: 1px solid #ccc;
+  border: 1px solid #000;
   clear: right;
   padding: 1.286em 0.75em;
   position: relative;

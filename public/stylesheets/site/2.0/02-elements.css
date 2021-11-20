@@ -22,7 +22,13 @@ body {
   font: 100%/1.125 'Lucida Grande', 'Lucida Sans Unicode', 'GNU Unifont', Verdana, Helvetica, sans-serif;
 }
 
-a, a:link, a:visited:hover {
+a, a:link {
+  color: #BF57FF;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+a:visited:hover {
   color: #BF57FF;
   text-decoration: none;
   border-bottom: 1px solid;
@@ -35,7 +41,7 @@ a:visited {
 }
 
 a:hover {
-  color: #62FF57;
+  color: #E0B0FF;
 }
 
 a:active, a:focus, button:focus {
@@ -202,7 +208,7 @@ caption {
 }
 
 thead, tfoot {
-  border-bottom: 2px solid #808080;
+  border-bottom: 2px solid #000;
   padding: 0.643em;
   vertical-align: top;
 }
@@ -216,7 +222,7 @@ td th {
 }
 
 tbody tr {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #000;
 }
 
 td {
@@ -234,8 +240,8 @@ thead td {
 }
 
 th, tr:hover, col.name {
-  background: #fff;
-  border: 1px solid #bbb;
+  background: #2a2a2a;
+  border: 1px solid #000;
   padding: 0.15em 0.5em 0.25em;
   vertical-align: top;
 }

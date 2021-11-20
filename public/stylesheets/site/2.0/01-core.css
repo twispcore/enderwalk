@@ -32,7 +32,7 @@ a, a:link {
 }
 
 li.blurb, fieldset, form dl {
-  border: 1px solid #ddd;
+  border: 1px solid #000;
   padding: 1em;
   overflow: hidden;
 }

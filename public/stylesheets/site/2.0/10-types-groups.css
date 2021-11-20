@@ -36,49 +36,49 @@ ul.cloud {
 }
 
 a.cloud1 {
-  color: #200;
+  color: #fff;
   font-size: 0.625em;
   font-weight: 100;
 }
 
 a.cloud2 {
-  color: #300;
+  color: #fff;
   font-size: 0.75em;
   font-weight: 200;
 }
 
 a.cloud3 {
-  color: #400;
+  color: #fff;
   font-size: 0.875em;
   font-weight: 300;
 }
 
 a.cloud4 {
-  color: #500;
+  color: #fff;
   font-size: 1em;
   font-weight: 400;
 }
 
 a.cloud5 {
-  color: #600;
+  color: #fff;
   font-size: 1.125em;
   font-weight: 500;
 }
 
 a.cloud6 {
-  color: #700;
+  color: #fff;
   font-size: 1.5em;
   font-weight: 600;
 }
 
 a.cloud7 {
-  color: #800;
+  color: #fff;
   font-size: 1.875em;
   font-weight: 700;
 }
 
 a.cloud8 {
-  color: #900;
+  color: #fff;
   font-size: 2.25em;
   font-weight: 800;
 }
@@ -86,7 +86,7 @@ a.cloud8 {
 /* GROUPS: WRAPPER, MODULE, INDEX  (#outer and #inner .wrapper have no style by default, but wrap the regions on every page for your skins convenience)*/
 
 .wrapper {
-    box-shadow: 1px 1px 5px #aaa;
+    box-shadow: 1px 1px 5px #181818;
 }
 
 #outer.wrapper {
@@ -129,7 +129,7 @@ dl.index dd {
   margin: 0 0.25em 0.643em 2.5em;
   padding: 0.375em 0.15em 0.15em;
   overflow: visible;
-  background: #ededed;
+  background: #262626;
 }
 
 dl.index > dd:after {
@@ -163,11 +163,11 @@ a.work {
 }
 
 li.relationships a {
-  background: #eee;
+  background: #36313e;
 }
 
 .actions .reindex a {
-  border-bottom: 3px solid #900;
+  border-bottom: 3px solid #fff;
 }
 
 .series.footnote {
@@ -233,7 +233,7 @@ dl.stats dd {
 }
 
 .statistics .index li:nth-of-type(even) {
-  background: #eee;
+  background: #141414;
 }
 
 .concise li {
