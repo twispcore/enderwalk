@@ -9,22 +9,22 @@ en:
         informal:
           addressed: "Hi, %{name}!"
           unaddressed: "Hi!"
-        introductory: "Hello from the Archive of Our Own!"
+        introductory: "Hello from the Enderwalk Archives!"
       signature:
-        app_short_name: AO3
+        app_short_name: EWA
         open_doors: The Open Doors team
-        parent_org: Organization for Transformative Works
-        support: The AO3 Support team
+        parent_org: EWA Staff
+        support: The EWA Support team
       footer:
         general:
           html:
             support_link_text: contact Support
             donate_link_text: your donations
             part1: "If you've received this message in error, please %{support_link}."
-            part2: "The Archive of Our Own is a fan-run and fan-supported archive that relies on %{donate_link}."
+            part2: "The Enderwalk Archives is a fan-run and fan-supported archive."
           text:
             part1: "If you've received this message in error, please contact Support at %{support_url}."
-            part2: "The Archive of Our Own is a fan-run and fan-supported archive that relies on your donations: %{donate_url}."
+            part2: "The Enderwalk Archives is a fan-run and fan-supported archive."
         sent_at: "Sent at %{sent_at}."
     kudos:
       guest:
@@ -121,12 +121,12 @@ en:
       subject: "[%{app_name}] Email changed"
       part1: "%{login}, the email associated with your account has been changed to %{email}"
     signup_notification:
-      subject: "[%{app_name}] Confirmation"
+      subject: "[%{app_name}] Activate your account"
       faq: "FAQ"
-      admin_posts: "AO3 News"
+      admin_posts: "EWA News"
       contact_support: "contact Support"
       activate_your_account: "follow this link to activate your account"
-      welcome: "Welcome to the Archive of Our Own, %{login}!"
+      welcome: "Welcome to the Enderwalk Archives, %{login}!"
       bye: "We hope you enjoy using the Archive."
       text:
         part1: "Please follow this link to activate your account: %{activate_account_url}"
@@ -137,7 +137,7 @@ en:
                   track of the works you've accessed on the Archive via your history, and much more.
         part3: |-
                   There's lots of information and advice on how to use the Archive in our FAQ
-                  at %{faq_url}. You'll find the latest news about site developments on AO3 News at
+                  at %{faq_url}. You'll find the latest news about site developments on EWA News at
                   %{admin_posts_url}. If you need more help, run into a bug, or have questions or
                   comments, please contact Support, who are always happy to help out:
                   %{contact_support_url}.
@@ -157,7 +157,7 @@ en:
       subject: "[%{app_name}] Invitation"
       has_invited: "%{user_name} has invited you to join our beta!"
       been_invited: "You've been invited to join our beta!"
-      part1: "The Archive of Our Own (AO3) is a free, noncommercial archive built by and for fans. We are multifannish and welcome all kinds of fanworks, including fanfiction, fanart, fanvids, and podfic. We run on the open-source otwarchive software, and our servers are owned by the nonprofit Organization for Transformative Works, which works to protect fan rights and preserve fanworks."
+      part1: "The Enderwalk Archives (EWA) is a free, noncommercial archive built by and for fans. We are MCYT-centric and welcome all kinds of MCYT fanworks, including fanfiction, fanart, fanvids, and podfic. We run on the open-source otwarchive software."
       part2: "Also, we have a lot of spiffy features for finding the fanworks you want, and for posting and sharing your work with others. There are lots more coming soon! Your feedback now during our beta can help us build an even better archive. \\o/"
       text:
         faq_link: "For more information, please check out our FAQ at %{faq_link}."
@@ -182,11 +182,11 @@ en:
       due: "This assignment is due at:"
       any: "Any"
       text:
-        assignment: "You have been assigned the following request in the \"%{collection_title}\" challenge (%{collection_url}) at the Archive of Our Own!"
+        assignment: "You have been assigned the following request in the \"%{collection_title}\" challenge (%{collection_url}) at the Enderwalk Archives!"
         look_up: "You can look up this assignment from your Assignments page at %{link}."
         footer: "You're receiving this email because you signed up for the %{title} challenge (%{url}). For more information about this challenge and contact information for the moderators, please visit %{profile_url}."
       html:
-        part1: "You have been assigned the following request in the %{link} challenge at the Archive of Our Own!"
+        part1: "You have been assigned the following request in the %{link} challenge at the Enderwalk Archives!"
         look_up: "You can look up this assignment from %{link}."
         look_up_link: "your Assignments page"
         footer: "You're receiving this email because you signed up for the %{title} challenge. For more information about this challenge and contact information for the moderators, please visit %{footer_link}."
