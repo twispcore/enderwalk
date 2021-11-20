@@ -11,7 +11,7 @@ System messages use the following colours:
 
 /* We don't generally chain class selectors, but Devise's non-customizable alert class conflicts with ours, making it necessary here */
 .required, .error, .alert.flash {
-  color: #900;
+  color: #e07ef9;
 }
 
 .footnote {
@@ -30,12 +30,12 @@ div.error {
 }
 
 .notice, .comment_notice, .kudos_notice, ul.notes, .caution, .error, .comment_error, .kudos_error, .alert.flash {
-  background: #d1e1ef;
-  border: 1px solid #c2d2df;
+  background: #1a1a1a;
+  border: 1px solid #000000;
   margin: 0.643em auto;
   padding: 0.25em 0.375em;
   clear: right;
-    box-shadow: inset 1px 1px 2px;
+    box-shadow: inset 1px 1px 2px #101010;
     border-radius: 0.25em;
 }
 
@@ -55,7 +55,7 @@ div.error {
 }
 
 form .notice, form ul.notes {
-    box-shadow: 0px 0 3px #fff;
+    box-shadow: 0px 0 3px #210054;
 }
 
 ul.notes, .error ul, .alert.flash ul {

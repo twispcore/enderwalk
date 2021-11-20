@@ -118,8 +118,8 @@ SUBSECTIONS:
 }
 
 .splash .module div.account {
-  background: #eaeaea;
-  border: 1px solid #ccc;
+  background: #410997;
+  border: 1px solid #5f24dd;
     border-radius: 0.5em;
     box-sizing: border-box;
 }
@@ -314,7 +314,7 @@ For practicality, /archive_faqs are also .docs and .support and have the .userst
 /* 7. ZONE: SYSTEM: TOS POPUP */
 
 #tos_prompt {
-  background: #fff;
+  background: #1E1E1E;
   margin: 0;
   min-height: 100vh;
   /* put it on top of the other content so it fades in nicely */
@@ -325,7 +325,7 @@ For practicality, /archive_faqs are also .docs and .support and have the .userst
 }
 
 #tos_prompt .heading {
-  background: #900;
+  background: #410997;
   color: #fff;
   display: block;
   margin: 0;
