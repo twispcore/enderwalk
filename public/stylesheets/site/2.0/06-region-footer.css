@@ -11,6 +11,7 @@ http://otwcode.github.com/docs/front_end_coding/patterns/supertypes
   position: relative;
   padding: 0;
   width: 100%;
+  margin-top: auto;
 }
 
 #footer ul {

@@ -92,6 +92,9 @@ a.cloud8 {
 #outer.wrapper {
   float: left;
   width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 #outer.wrapper, #inner.wrapper {
