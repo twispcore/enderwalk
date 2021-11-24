@@ -91,11 +91,11 @@ SUBSECTIONS:
 }
 
 .splash .favorite li:nth-of-type(odd) a {
-  background: #eee;
+  background: #303030;
 }
 
 .splash .favorite li:nth-of-type(odd) a:hover, .splash .favorite li:nth-of-type(odd) a:focus {
-  background: #900;
+  background: #BF57FF;
 }
 
 /* module: intro */
